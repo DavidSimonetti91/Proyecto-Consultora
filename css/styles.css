@@ -1,0 +1,496 @@
+:root {
+    --red: #0da19f;
+    --black: #252a34;
+    --blue: #fd2e65;
+    --white: #eaeaea;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #fff;
+    overflow-x: hidden;
+    font-family: "Raleway", sans-serif;
+  }
+  
+  /** Skew **/
+  
+  .skew-abajo {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-width: 0 0 10vh 100vw;
+    border-style: solid;
+    border-color: transparent transparent #fff transparent;
+  }
+  
+  .skew-arriba {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-width: 10vh 100vw 0 0;
+    border-style: solid;
+    border-color: #fff transparent transparent transparent;
+    z-index: 10;
+  }
+
+
+/**Logo**/
+.navbar-brand img {
+    width: 80px;
+  }
+
+/** Menú de navegación **/
+
+#header {
+    position: relative;
+    width: 100%;
+    z-index:99;
+  }
+  
+  .menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 9999;
+  }
+  
+  .menu .logo-box {
+    margin-left: 20px;
+  }
+  
+  .menu .logo-box h1 a {
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 400;
+    color: var(--black);
+  }
+  
+  #header .list-container {
+    margin-right: 20px; 
+    justify-content: flex-end;
+  }
+  
+  #header .list-container .lists {
+    display: flex;
+  }
+  
+  #header .list-container .lists li {
+    list-style: none;
+  }
+  
+  #header .list-container .lists li a {
+    text-decoration: none;
+    margin: 0px 10px;
+    padding: 8px;
+    color: var(--black);
+    border-radius: 24px;
+    font-size: 16px;
+    transition: 0.3s;
+  }
+  
+  #header .list-container .lists li a.activo {
+    background: var(--red);
+    color: #fff;
+  }
+  
+  #header .list-container .lists li a:hover {
+    background: var(--red);
+    color: #fff;
+  }
+  
+  .btn-menu > .fa-bars {
+    display: none;s
+  }
+
+  /** IMG Header **/
+
+  /** IMG Header **/
+
+.img-header {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(../images/header.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .img-header .welcome {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .img-header .welcome h1 {
+    font-size: 50px;
+    color: #fff;
+    font-weight: 200;
+  }
+  
+  .img-header .welcome hr {
+    width: 400px;
+    height: 2px;
+    background: #fff;
+    border: none;
+    margin-top: 5px;
+  }
+  
+  .img-header .welcome p {
+    font-size: 20px;
+    color: #fff;
+    margin-top: 20px;
+  }
+  
+  .img-header .welcome > button {
+    width: 170px;
+    height: 40px;
+    background: var(--red);
+    border-radius: 24px;
+    border: none;
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  
+  .img-header .welcome > button:hover {
+    background: var(--blue);
+  }
+  
+  /** IMG Header **/
+  
+  /** Acerca de Nosotros **/
+  
+  .acerca-de {
+    width: 100%;
+    margin-top: 120px;
+  }
+  
+  .acerca-de .info-container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .acerca-de .info-container h1 {
+    font-size: 50px;
+    font-weight: 400;
+    color: var(--black);
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .acerca-de .info-container p {
+    text-align: center;
+    font-size: 17px;
+    color: var(--black);
+    line-height: 35px;
+    margin: 10px 0px;
+  }  
+
+  .about-more {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+.about-more button {
+    width: 120px;
+    height: 40px;
+    background: var(--red);
+    border-radius: 24px;
+    border: none;
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  
+  .about-more button:hover {
+    background: var(--blue);
+  }
+
+  /** Acerca de Nosotros **/
+
+/** Metodologia **/
+
+.metodologia {
+    width: 100%;
+    margin-top: 120px;
+  }
+  
+  .metodologia .metodologia-title {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .metodologia .metodologia-title h2 {
+    font-size: 50px;
+    color: var(--black);
+    font-weight: normal;
+    margin-bottom: 10px;
+  }
+  
+  .metodologia .metodologia-title hr {
+    width: 60%;
+    margin: auto;
+    height: 2px;
+    background: var(--black);
+    border: none;
+  }
+  
+  .metodologia .box-metodologia {
+    width: 90%;
+    margin: 80px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .metodologia .box-metodologia .card-metodologia {
+    width: 45%;
+    margin: 20px;
+  }
+  
+  .metodologia .box-metodologia .card-metodologia .card-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .metodologia .box-metodologia .card-metodologia .card-img img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  
+  .metodologia .box-metodologia .card-metodologia .metodologia-text {
+    width: 100%;
+    border: 2px solid var(--red);
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 200ms;
+  }
+  
+  .metodologia .box-metodologia .card-metodologia .metodologia-text h4 {
+    color: var(--red);
+    font-weight: normal;
+    font-size: 27px;
+    text-align: center;
+    margin-bottom: 20px;
+    transition: 200ms;
+  }
+  
+  .metodologia .box-metodologia .card-metodologia .metodologia-text p {
+    font-size: 19px;
+    color: var(--black);
+    text-align: center;
+    line-height: 35px;
+    transition: 200ms;
+  }
+  
+  .metodologia .box-metodologia .card-metodologia .metodologia-text:hover {
+    border: 2px solid var(--blue);
+  }
+  
+  .metodologia .box-metodologia .card-metodologia .metodologia-text:hover h4 {
+    color: var(--blue);
+  }
+  
+  /** Metodologia **/
+
+  /** Footer **/
+
+.footer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: url(../images/footer.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.footer .deg-footer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.footer .ejeZfooter {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.footer .footer-content {
+  width: 90%;
+  padding-top: 100px;
+  margin: auto;
+  padding-bottom: 100px;
+}
+
+.footer .footer-content .footer-title {
+  width: 50%;
+  margin: auto;
+  border: 2px solid #fff;
+  padding: 15px;
+}
+
+.footer .footer-content .footer-title h2 {
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+.footer .footer-content .footer-title hr {
+  width: 80%;
+  margin: auto;
+}
+
+.footer .footer-content .formulario-content {
+  width: 60%;
+  background: #fff;
+  border-radius: 24px;
+  border: 2px solid var(--red);
+  margin: 50px auto;
+  padding: 30px;
+}
+
+.footer .footer-content .formulario-content #formulario {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footer .footer-content .formulario-content #formulario label {
+  text-align: center;
+  color: var(--black);
+  font-size: 22px;
+  margin: 30px 0px 10px 0px;
+}
+
+.footer .footer-content .formulario-content #formulario input {
+  width: 90%;
+  height: 40px;
+  margin: auto;
+  border: 2px solid var(--red);
+  border-radius: 24px;
+  outline: none;
+  text-align: center;
+  font-size: 17px;
+  color: var(--black);
+}
+
+.footer .footer-content .formulario-content #formulario textarea {
+  width: 90%;
+  height: 200px;
+  margin: auto;
+  border: 2px solid var(--red);
+  border-radius: 24px;
+  outline: none;
+  font-size: 15px;
+  color: var(--black);
+  padding: 20px;
+}
+
+.footer .footer-content .formulario-content #formulario .send {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 40px 0px;
+}
+
+.footer .footer-content .formulario-content #formulario .send button {
+  width: 150px;
+  height: 40px;
+  background: var(--red);
+  border-radius: 24px;
+  border: none;
+  font-size: 22px;
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.footer .footer-content .formulario-content #formulario .send button:hover {
+  background: var(--blue);
+}
+
+.footer .footer-content .footer-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background: rgba(0, 0, 0, 0.8);
+  border-top: 5px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .footer-content .footer-text p {
+  color: #fff;
+  font-size: 20px;
+}
+/** Footer **/
+
+
+@media screen and (max-width:768px){
+  .metodologia .servicio-fila .item{
+    flex-direction: column; 
+  }
+  .metodologia .metodologia-title{
+    width: auto;
+  }
+  .metodologia .box-metodologia .card-metodologia{
+    width:auto;
+  }
+  .footer .footer-content .footer-title{
+    width:auto;
+  }
+  .footer .footer-content .formulario-content{
+    width: auto;
+  }
+}
+
