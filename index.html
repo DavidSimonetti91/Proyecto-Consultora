@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <!--Mobile first! -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!--Etiquetas para SEO -->
+  <title> VAV Consultora - Hacemos que las cosas sucedan </title>
+  <meta name="description" content="Acompañamos a las organizaciones en la transformación de sus procesos de gestión de personas de acuerdo a su estrategia 
+   y cultura">
+  <meta name="keywords" content="seleccion, capacitacion, busqueda, desarrollo, diseño, desarrollo, organizaciones, responsabilidad, personas">
+  <meta name="author" content="David Simonetti">
 
-  <!--Metaetiquetas-->
-<meta name="description" content="Acompañamos a las organizaciones en la actualización de los procesos de gestión
-de personas alineados a la estrategia y la cultura de las mismas">
-<meta name="keywords" content="seleccion, capacitacion, busqueda, desarrollo, diseño, desarrollo, organizaciones, responsabilidad, personas">
- 
-<!--Protocolo Open Graph-->
-<meta property="og:title" content="Somos una agencia que brinda consultoria en las mejores practicas de gestión del talento">
-<meta property="og:image" content="htpp:/davidsimo.com/images/simo.png">
-<meta property="og:author" content="David Simonetti">
-<meta property="og:description" content="Acompañamos a las organizaciones en la transformación de sus procesos de gestion del talento de acuerdo
-a la cultura y la estrategia de las mismas">
-
+  <!--Protocolo Open Graph-->
+  <meta property="og:title" content="Somos una agencia que brinda consultoria basándonos en las mejores practicas de gestión de las personas">
+  <meta property="og:image" content="imagen">
+  <meta property="og:author" content="David Simonetti">
+  <meta property="og:description" content="Acompañamos a las organizaciones en la transformación de sus procesos de gestion del talento de acuerdo
+  a su cultura y estrategia">
 
 <!-- Bootstrap CSS -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -24,108 +27,164 @@ integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeM
    
  <!-- Estilos -->
 <link rel="stylesheet" href="css/styles.css" />
-<link
-href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
-rel="stylesheet"
-/>
+<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet"/>
 
 <!--Animates-->
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-<title>Vav Consultora - Hacemos que las cosas sucedan</title>
-
-
 </head>
 <body>
-    
-    <!-- Menú de navegación-->
-    <header id="header">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="images/Logo_Dark.png" alt=""></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse list-container" id="navbarSupportedContent">
-            <ul class="navbar-nav mb-2 mb-lg-0 lists">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#nosotros">Nosotros</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#servicios">Servicios</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#metodologia">Metodologia</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contacto">Contacto</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      </header>
 
-          <!-- IMG Header-->
-      <div class="img-header">
-        <div class="welcome">
-          <h1>VAV Consultora</h1>
-          <hr />
-          <p>Activamos el potencial de tu empresa</p>
-          <button id="abajo">Conócenos</button>
+  <!-- Menú de navegación-->
+  <header id="header">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="images/Logo_Dark.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse list-container" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0 lists">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#nosotros">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#servicios">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#metodologia">Metodologia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
         </div>
-        <div class="skew-abajo"></div>
+      </div>
+    </nav>
+
+<!--Sección Portada-->
+<div class="img-header">
+    <div class="welcome" data-aos="fade-right">
+      <h1>VAV Consultora</h1>
+      <p>Hacemos que las cosas sucedan</p>
+      <button>Conocenos</button>
       </div>
 
+</div>
 </header>
-<main>
 
-  <!-- Acerca de Nosotros-->
-  <section class="acerca-de" id="nosotros">
-    <div class="info-container">
-      <h1>Acerca de Nosotros</h1>
-      <p>
-        Entendemos la consultoría como un servicio profesional para ayudar a identificar y 
-        definir posibilidades de mejora, desarrollando de manera conjunta soluciones que impactan 
-        en la organización.
-      </p>
-      <p>
-        Nuestro propósito como consultora es cambiar la vida de las personas, 
-        creando oportunidades que les permitan alcanzar su máximo potencial profesional. 
-      </p>
+ <!-- Sección Nosotros-->
+<section class="acerca-de" id="nosotros">
+  <div class="info-container">
+    <h1>Somos especialistas en la gestión de personas</h1>
+    <hr class="title-underline-center">
+</section>
 
-  </section>
+<!-- Sección Introducción -->
+<section class="page-section" id="intro">
+    <div class="row margin-bottom-50">
+        <div class="col-md-12 text-center text-primary">
+          <h2>
+              TE ACOMPAÑAMOS<br>SI TU EMPRESA PRESENTA<br>ALGUNOS DE ESTOS DESAFÍOS</h2>
+          <hr class="title-underline-center">
+        </div>
+        </div>
+        <div class="">
+        <div class="row text-center text-primary">
+                <div class="col-md-4 col-sm-6 desafios">
+                  <div>
+                    <img src="images/calendar-check.svg" alt="calendario" width="50">
+                    Las reuniones no son productivas
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-6 desafios">
+                  <div>
+                    <img src="images/cash-coin.svg" alt="dinero" width="50">
+                    La rentabilidad es baja              
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-6 desafios">
+                  <div>
+                    <img src="images/check-lg.svg" alt="expectativas" width="50">
+                    No se cumplen las expectativas 
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-6 desafios">
+                  <div>
+                    <img src="images/display-fill.svg" alt="coordinacion" width="50">
+                    No hay coordinación entre equipos
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-6 desafios">
+                  <div>
+                    <img src="images/bar-chart-fill.svg" alt="indicadores" width="50">
+                    Es difícil trabajar con indicadores
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-6 desafios">
+                  <div>
+                    <img src="images/envelope.svg" alt="comunicaciones" width="50">
+                    Hay problemas de comunicación
+                  </div>
+                </div>
+                 <div class="col-md-4 col-sm-6 desafios">
+                    <div>
+                    <img src="images/clipboard.svg" alt="resultados" width="50">
+                    Los resultados no son los esperados
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 desafios">
+                    <div>
+                    <img src="images/clipboard.svg" alt="negocio" width="50">
+                    Nadie entiende bien el negocio
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 desafios">
+                    <div>
+                    <img src="images/bookmarks-fill.svg" alt="estructura" width="50">
+                      Falta coordinación entre áreas
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-<section class="w-50 mx-auto text-center pt-5"  data-aos="fade-up" id="intro">
-    <h1 class="p-3 fs-2 border-top border-3"><span class="text-primary">Hacemos que las cosas sucedan</span></h1>
-    <p class="p-3 fs-4">Nos enfocamos en las personas como agentes de cambio</p>
-    <p>Desarrollamos proyectos mediante acciones ágiles y eficientes, generando oportunidades.
-    </p>
-  </section>
-  
-   <!-- Servicios -->
+<section class="acerca-de" id="nosotros">
+<div class="info-container">
+<p class="lead">
+  Nuestro propósito es cambiar la vida de las personas, creando 
+    oportunidades que les permitan alcanzar su máximo potencial profesional. 
+</p>
+<hr class="title-underline-center">
+  <p class="lead">Brindamos soluciones en forma eficiente, creativa y adaptada a las necesidades específicas de nuestros clientes.</b></p>
+</div>
+</section>
+
+   <!-- Sección Servicios -->
    <section class="metodologia" id="servicios">
     <div class="metodologia-title">
-      <h2>Servicios</h2>
+      <h2>SERVICIOS</h2>
       <hr/>
     </div>
+
   <section class="container-fluid">
     <div class="row w-75 mx-auto my-5 servicio-fila">
     <div class="item col-lg-6 col-md-12 col-sm-12 d-flex my-5"  data-aos="fade-right">
       <img src="images/Recluysec.png" alt="Búsqueda y Selección" width="180" height="160">
       <div>
-      <h3 class="fs-5 mt-4 px-4 pb-1">Búsqueda y Selección</h3>
+      <h3 class="fs-5 mt-4 px-4 pb-1 text-primary">Búsqueda y Selección</h3>
       <p class="px-4"> Buscamos el talento que su empresa necesita. Sabemos como hacerlo.</p>
       </div>
     </div>
     <div class="item col-lg-6 col-md-12 col-sm-12 d-flex my-5" data-aos="fade-left">
       <img src="images/Capydes.png" alt="Capacitación y Desarrollo" width="180" height="160">
       <div>
-      <h3 class="fs-5 mt-4 px-4 pb-1">Capacitación y Desarrollo</h3>
-      <p class="px-4">Ofrecemos capacitaciones segun las necesidades de los clientes.</p>
+      <h3 class="fs-5 mt-4 px-4 pb-1 text-primary">Capacitación y Desarrollo</h3>
+      <p class="px-4">Ofrecemos capacitaciones in company y virtuales segun las necesidades de nuestros clientes.</p>
       </div>
       </div>
     </div>
@@ -133,149 +192,192 @@ rel="stylesheet"
       <div class="item col-lg-6 col-md-12 col-sm-12 d-flex my-5"  data-aos="fade-right">
         <img src="images/Disorg.png" alt="Diseño Organizacional" width="180" height="160">
         <div>
-        <h3 class="fs-5 mt-4 px-4 pb-1">Diseño Organizacional</h3>
-        <p class="px-4">Acompañamos en la implementación de procesos referentes a la gestión de las personas.</p>
+        <h3 class="fs-5 mt-4 px-4 pb-1 text-primary">Diseño Organizacional</h3>
+        <p class="px-4">Acompañamos en la implementación de procesos referentes a la gestión de las personas basandonos en las  mejoras practicas del mercado.</p>
         </div>
       </div>
       <div class="item col-lg-6 col-md-12 col-sm-12 d-flex my-5" data-aos="fade-left">
         <img src="images/Respsoc.png" alt="Responsabilidad Social" width="180" height="160">
         <div>
-        <h3 class="fs-5 mt-4 px-4 pb-1">Responsabilidad Social</h3>
-        <p class="px-4">Desarrollamos proyectos a favor de la comunidad local.</p>
+        <h3 class="fs-5 mt-4 px-4 pb-1 text-primary">Responsabilidad Social</h3>
+        <p class="px-4">Desarrollamos proyectos de voluntario corporativo.</p>
         </div>
         </div>
-      </div>
-        <div class="about-more"><button>Leer más</button></div>
-    </section>
-    </section>
-    <!--Fin Servicios-->
-
-    <!-- Metodologia -->
-    <section class="metodologia" id="metodologia">
-      <div class="metodologia-title">
-        <h2>Metodologia</h2>
-        <hr/>
-      </div>
-      <div class="skew-arriba"></div>
-          <div class="box-metodologia">
-            <div class="card-metodologia">
-              <div class="metodologia-text">
-                <h4>Búsqueda y Selección</h4>
-                <p>Relevamiento personalizado para tener un conocimiento en detalle de las características propias de la empresa</p>
-                <p>Análisis del puesto a cubrir para definir el correcto perfil requerido.</p>
-                <p>Uso y combinación de las diferentes herramientas y canales de reclutamiento</p>
-                <p>Entrevistas tradicionales y por competencias</p>
-                <p>Acompañamiento y soporte hasta la incorporación y en la inducción</p>
-                <p></p>
-
-
-              </div>
-            </div>
-      
-            <div class="card-metodologia">
-              <div class="metodologia-text">
-                <h4>Diseño Organizacional</h4>
-                <p>Diagnóstico organizacional: funcional y cultural (análisis FODA, evaluación de clima laboral y programa de mejora)</p>
-                <p>Definición de estructura organizacional. Análisis y descripción de puestos de trabajo: Diseño y/o actualización del organigrama</p>
-                <p>Elaboración del manual de inducción/ bienvenida del nuevo empleado</p>
-                <p>Elaboración del reglamento interno de la empresa.</p>            
-              </div>
-            </div>
-      
-            <div class="card-metodologia">
-              <div class="metodologia-text">
-                <h4>Capacitación y Desarrollo</h4>
-                <p>Relevamiento y diagnóstico de la organización</p>
-                <p>Diseño de actividades a medida</p>
-                <p>Formación de líderes</p>
-                <p>Gestión de desempeño</p>
-                <p>Talent review</p>
-                <p>Pool de talentos</p>
-              </div>
-            </div>
-      
-            <div class="card-metodologia">
-              <div class="metodologia-text">
-                <h4>Responsabilidad Social y Sustentabilidad</h4>
-                <p> Relacionamiento con grupos de interés</p>
-                <p> Objetivos de Desarrollo Sostenible</p>
-                <p> Actividades de voluntariado corporativo</p>
-                <p> Reporte de Sustentabilidad</p>
-                <p> Comunicación de la Sustentabilidad</p>
-                <p> Cadena de Valor</p>
-              </div>
-            </div>
-          </div>
-        </section>
-      </main>
-        </div>
-      </div>
     </section>
 
-  <section>
-  
-  <div class="w-50 m-auto text-center" data-aos="fade-up">
-  <p class="fs-4 text-center text-primary">Brindamos soluciones en forma eficiente, creativa y adaptada a las necesidades específicas de nuestros clientes</p>
+    <section class= "padding-30">
+      <div class="container intro">
+          <div class="row">
+            <div class="col-md-12 text-center text-primary">
+                  <p class="lead">Gestionamos las funciones de gestión de personas, implementamos los procesos, medimos resultados y corregimos desvíos.</p>
+                  <p class="lead">Desarrollamos proyectos mediante acciones ágiles y eficientes, generando oportunidades.</p>
+  </section>
+
+    <section class="w-50 mx-auto text-center pt-5"  data-aos="fade-up" id="intro">
+      <h2 class="p-3 fs-2 border-top border-3"><span class="text-primary">Hacemos que las cosas sucedan</span></h2>
+    </section>
+    </section>
+
+<!-- Sección Metodología -->
+<section class="metodologia" id="metodologia">
+  <div class="metodologia-title">
+  <h2>METODOLOGIA</h2>
+  <hr class="title-underline-center">
+  </div>
+  <div class="skew-arriba"></div>
+    <div class="container-lg row servicios__cards_group">
+      <div class="col-lg">
+        <div class="card servicios__cards servicios__cards--hover">
+          <div class="card-header servicios__cards--h">
+            <h3 class="text-center text-primary">Búsqueda y Seleccion</h3>
+              </div>
+                <div class="card-body">
+                  <div class="servicios__cards--p">
+                   <div class="card-text">
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Relevamiento del perfil</li>
+                        <li class="list-group-item">Análisis del puesto a cubrir</li>
+                        <li class="list-group-item">Combinación de diferentes canales de reclutamiento</li>
+                        <li class="list-group-item">Entrevistas tradicionales, por competencias y assessment center</li>
+                        <li class="list-group-item">Acompañamiento de los candidatos durante el proceso </li>
+                      </ul>
+                      </div>
+                      </div>
+                      <div class="d-flex justify-content-start"><a href="#contacto"class="btn btn-primary bs--font_size servicios__cards--button">Conoce más</a>
+                      </div>
+                      </div>
+                      </div>
+                      </div>
+      <div class="col-lg">
+        <div class="card servicios__cards servicios__cards--hover">
+          <div class="card-header servicios__cards--h">
+            <h3 class="text-center text-primary">Capacitación y Desarrollo</h3>
+              </div>
+                <div class="card-body">
+                  <div class="servicios__cards--p">
+                    <div class="card-text">
+                      <ul class="list-group list-group-flush">
+                          <li class="list-group-item">Diagnóstico de la organización</li>
+                          <li class="list-group-item">Diseño de actividades a medida</li>
+                          <li class="list-group-item">Formación de líderes</li>
+                          <li class="list-group-item">Formación de agentes de cambio</li>
+                          <li class="list-group-item">Gamificación</li>
+                      </ul>
+                      </div>
+                      </div>
+                      <div class="d-flex justify-content-start"><a href="#contacto" class="btn btn-primary bs--font_size servicios__cards--button">Conoce más</a>
+                      </div>
+                      </div>
+                      </div>
+                      </div>
+        <div class="col-lg">
+          <div class="card servicios__cards servicios__cards--hover">
+            <div class="card-header servicios__cards--h">
+              <h3 class="text-center text-primary">Diseño y Estructura Organizacional</h3>
+                </div>
+                  <div class="card-body">
+                    <div class="servicios__cards--p">
+                      <div class="card-text">
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item">Diagnóstico funcional y cultural</li>
+                          <li class="list-group-item">Análisis y descripción de puestos de trabajo</li>
+                          <li class="list-group-item">Diseño y actualización del organigrama</li>
+                          <li class="list-group-item">Elaboración del manual de inducción</li>
+                          <li class="list-group-item">Elaboración del reglamento interno</li>
+                        </ul>
+                        </div>
+                        </div>
+                        <div class="d-flex justify-content-start"><a href="#contacto"class="btn btn-primary bs--font_size servicios__cards--button">Conoce más</a>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+        <div class="col-lg">
+          <div class="card servicios__cards servicios__cards--hover">
+            <div class="card-header servicios__cards--h">
+              <h3 class="text-center text-primary">Responsabilidad Social y Sustentabilidad</h3>
+                </div>
+                  <div class="card-body">
+                    <div class="servicios__cards--p">
+                      <div class="card-text">
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item">Implementación de acciones para el cumplimiento de los Objetivos del Desarrollo Sostenible</li>
+                          <li class="list-group-item">Actividades de voluntariado corporativo</li>
+                          <li class="list-group-item">Reporte de Sustentabilidad</li>
+                          <li class="list-group-item">Análisis de la cadena de valor</li>
+                        </ul>
+                        </div>
+                        </div>
+                        <div class="d-flex justify-content-start"><a href="#contacto" class="btn btn-primary bs--font_size servicios__cards--button">Conoce más</a>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+            </div>
   </section>
 
 
-   <!-- Footer -->
+<!-- Footer -->
 
-   <footer class="footer" id="contacto">
-    <div class="skew-arriba"></div>
-    <div class="deg-footer"></div>
+<footer class="footer" id="contacto">
+  <div class="deg-footer"></div>
+  <div class="ejeZfooter">
+  <div class="footer-content">
+  <div class="footer-title">
+  <h2>Formulario de Contacto</h2>
+  <hr/>
+  </div>
 
-    <div class="ejeZfooter">
-      <div class="footer-content">
-        <div class="footer-title">
-          <h2>Formulario de Contacto</h2>
-          <hr />
-        </div>
+  <div class="formulario-content">
+    <form
+    id="formulario"
+    action="https://formspree.io/moqkpyyd"
+    method="POST"
+    >
+    <label for="name">Nombre:</label>
+    <input
+    type="text"
+    id="user"
+    name="name"
+    placeholder="Ingresa tu nombre"
+    />
 
-        <div class="formulario-content">
-          <form
-            id="formulario"
-            action="https://formspree.io/moqkpyyd"
-            method="POST"
-          >
-            <label for="name">Nombre:</label>
-            <input
-              type="text"
-              id="user"
-              name="name"
-              placeholder="Ingresa tu nombre"
-            />
+    <label for="email">Correo Electrónico:</label>
+    <input
+    type="email"
+    id="email"
+    name="_replyto"
+    placeholder="Ingresa tu correo electrónico"
+    />
 
-            <label for="email">Correo Electrónico:</label>
-            <input
-              type="email"
-              id="email"
-              name="_replyto"
-              placeholder="Ingresa tu correo electrónico"
-            />
+    <label for="mensaje">Escribe tu mensaje:</label>
+    <textarea id="mensaje" name="body"></textarea>
 
-            <label for="mensaje">Escribe tu mensaje:</label>
-            <textarea id="mensaje" name="body"></textarea>
-
-            <div class="send">
-              <imput type="submit" value="Send"
-                ><button>Enviar</button></imput
-              >
-            </div>
-
-            <div class="mensaje-form">
-              <p>
-                Escríbenos tu mensaje, con gusto tendrás una respuesta por
-                parte de nosotros en muy poco tiempo!
-              </p>
-            </div>
-          </form>
-        </div>
-
-       
-      </div>
+    <div class="send">
+    <imput type="submit" value="Send"><button>Enviar</button></imput>
     </div>
+
+    <div class="mensaje-form">
+    <p>
+    ¡No dudes en comunicarte con nosotros, esperamos tu consulta!
+    </p>
+    </div>
+    </form>
+    </div>
+
+    </div>
+    </div>
+
+    <div>
+      <a class="contacto" href=""><img src="images/arrow-up-square-fill.svg" width="50"alt="Arriba a inicio">
+      </a>
+      </div>
+
+      <div class="footer__copyright">
+          <p>© Copyright 2021 David Simonetti - Todos los Derechos Reservados</p>
+      </div>
   </footer>
+
 
 
 <!-- Option 1: Bootstrap Bundle with Popper 
@@ -293,12 +395,7 @@ rel="stylesheet"
   AOS.init();
   </script>
 
-  <!-- Sripts -->
-  <script
-  src="https://kit.fontawesome.com/0ebdadc5e5.js"
-  crossorigin="anonymous"
-></script>
-<script src="js/app.js"></script>
+  
 
 
 </body>
